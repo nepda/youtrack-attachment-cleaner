@@ -23,4 +23,4 @@ created between 1990-01-01 and 2015-01-01.
         --pattern 'backtrace|logfile' \
         --limit 1000
 
-You can run this line as long as no results are found.
+You can run this line until no results are found.
