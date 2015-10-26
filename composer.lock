@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a370c9900b50024ed7d42607e7b45123",
+    "content-hash": "b5cf96c65af869883e882526446568a5",
+    "packages": [
+        {
+            "name": "nepda/youtrack-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nepda/youtrack.git",
+                "reference": "e6c56d39bcd8728dfa02e65f31220e0081ca838b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nepda/youtrack/zipball/e6c56d39bcd8728dfa02e65f31220e0081ca838b",
+                "reference": "e6c56d39bcd8728dfa02e65f31220e0081ca838b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": ">=1",
+                "lib-curl": ">=7",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/dbunit": ">=1.2",
+                "phpunit/php-invoker": "*",
+                "phpunit/phpunit": "4.*",
+                "phpunit/phpunit-selenium": ">=1.2",
+                "phpunit/phpunit-story": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "YouTrack\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nepomuk Fraedrich",
+                    "email": "info@nepda.eu"
+                }
+            ],
+            "description": "A PHP YouTrack client library",
+            "time": "2015-10-15 10:56:22"
+        },
+        {
+            "name": "ulrichsg/getopt-php",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ulrichsg/getopt-php.git",
+                "reference": "a51554a16e206a6642bf1a0d7d1e4378ec2ba980"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ulrichsg/getopt-php/zipball/a51554a16e206a6642bf1a0d7d1e4378ec2ba980",
+                "reference": "a51554a16e206a6642bf1a0d7d1e4378ec2ba980",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ulrichsg\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ulrich Schmidt-Goertz",
+                    "email": "ulrich@schmidt-goertz.de"
+                }
+            ],
+            "description": "Command line arguments parser for PHP 5.3",
+            "homepage": "http://ulrichsg.github.io/getopt-php",
+            "time": "2015-03-28 14:09:20"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "nepda/youtrack-client": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

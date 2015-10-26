@@ -1,0 +1,16 @@
+{
+  "name": "nepda/youtrack-attachment-cleaner",
+  "description": "Helps you to delete / clean attachments from issues by search query",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nepomuk Fraedrich",
+      "email": "info@nepda.eu"
+    }
+  ],
+  "require": {
+    "nepda/youtrack-client": "dev-master",
+    "ulrichsg/getopt-php": "2.*"
+  }
+}
