@@ -16,6 +16,7 @@ $getopt = new Getopt(
         new Option('q', 'query', Getopt::REQUIRED_ARGUMENT),
         new Option('f', 'pattern', Getopt::OPTIONAL_ARGUMENT),
         new Option('l', 'limit', Getopt::OPTIONAL_ARGUMENT),
+        new Option('d', 'dry-run', Getopt::OPTIONAL_ARGUMENT),
     ]
 );
 
@@ -24,6 +25,7 @@ try {
 
     $query = $getopt['query'];
     $limit = $getopt['limit'] ? $getopt['limit'] : 100;
+    $dryRun = $getopt['dry-run'] ? true : false;
 
     $youtrack = new YouTrack\Connection(
         $getopt['host'],
@@ -49,16 +51,20 @@ try {
         foreach ($attachments as $attachment) {
             echo '    ID: ' . $attachment->getId() . ' (' . $attachment->getName() . ')';
             if (!$pattern || preg_match('/' . $pattern . '/', $attachment->getName())) {
-                $success = $youtrack->deleteAttachment($issue, $attachment);
-                if ($success) {
-                    echo ' deleted';
+                if ($dryRun) {
+                    $success = $youtrack->deleteAttachment($issue, $attachment);
+                    if ($success) {
+                        echo ' deleted';
+                    } else {
+                        echo ' NOT deleted';
+                    }
                 } else {
-                    echo ' NOT deleted';
+                    echo ' deleted (not really!)';
                 }
-                echo PHP_EOL;
             } else {
                 echo ' skipped';
             }
+            echo PHP_EOL;
         }
         echo PHP_EOL;
     }
