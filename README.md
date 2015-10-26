@@ -10,6 +10,8 @@ With this tiny script, you can batch-remove attachments from issues by query.
 * `q|query` The search query for the issues
 * `f|pattern` An optional filter/pattern for attachment filenames
 * `l|limit` The limit/maximum of issues fetched, default is 100.
+* `d|dry-run` If set, no attachments will be deleted, just output, what would the script do
+
 
 ## Example
 
