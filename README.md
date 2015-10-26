@@ -2,6 +2,12 @@
 
 With this tiny script, you can batch-remove attachments from issues by query.
 
+## Installation
+
+    git clone https://github.com/nepda/youtrack-attachment-cleaner.git
+    cd youtrack-attachment-cleaner
+    composer install
+
 ## Parameters
 
 * `h|host` The youtrack host/URL

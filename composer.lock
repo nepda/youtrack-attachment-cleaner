@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nepda/youtrack.git",
-                "reference": "e6c56d39bcd8728dfa02e65f31220e0081ca838b"
+                "reference": "cd91ca5bae002c9e8686c5a2e650810a0aaaa263"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nepda/youtrack/zipball/e6c56d39bcd8728dfa02e65f31220e0081ca838b",
-                "reference": "e6c56d39bcd8728dfa02e65f31220e0081ca838b",
+                "url": "https://api.github.com/repos/nepda/youtrack/zipball/cd91ca5bae002c9e8686c5a2e650810a0aaaa263",
+                "reference": "cd91ca5bae002c9e8686c5a2e650810a0aaaa263",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 }
             ],
             "description": "A PHP YouTrack client library",
-            "time": "2015-10-15 10:56:22"
+            "time": "2015-10-26 10:26:23"
         },
         {
             "name": "ulrichsg/getopt-php",
