@@ -51,7 +51,7 @@ try {
         foreach ($attachments as $attachment) {
             echo '    ID: ' . $attachment->getId() . ' (' . $attachment->getName() . ')';
             if (!$pattern || preg_match('/' . $pattern . '/', $attachment->getName())) {
-                if ($dryRun) {
+                if (!$dryRun) {
                     $success = $youtrack->deleteAttachment($issue, $attachment);
                     if ($success) {
                         echo ' deleted';
