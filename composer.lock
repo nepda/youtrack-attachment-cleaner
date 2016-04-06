@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a370c9900b50024ed7d42607e7b45123",
-    "content-hash": "b5cf96c65af869883e882526446568a5",
+    "hash": "505ed3f2071fda380d930ee3f78f26ae",
+    "content-hash": "09483226536ac98f058c9b371c2b1d89",
     "packages": [
         {
             "name": "nepda/youtrack-client",
-            "version": "dev-master",
+            "version": "v1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nepda/youtrack.git",
-                "reference": "cd91ca5bae002c9e8686c5a2e650810a0aaaa263"
+                "reference": "e8a4bc2f6ad56bf9318ca08129ec01305bdc8d4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nepda/youtrack/zipball/cd91ca5bae002c9e8686c5a2e650810a0aaaa263",
-                "reference": "cd91ca5bae002c9e8686c5a2e650810a0aaaa263",
+                "url": "https://api.github.com/repos/nepda/youtrack/zipball/e8a4bc2f6ad56bf9318ca08129ec01305bdc8d4b",
+                "reference": "e8a4bc2f6ad56bf9318ca08129ec01305bdc8d4b",
                 "shasum": ""
             },
             "require": {
@@ -47,10 +47,14 @@
                 {
                     "name": "Nepomuk Fraedrich",
                     "email": "info@nepda.eu"
+                },
+                {
+                    "name": "Sergey Susikov",
+                    "email": "sergey.susikov@coldbrainweb.com"
                 }
             ],
             "description": "A PHP YouTrack client library",
-            "time": "2015-10-26 10:26:23"
+            "time": "2016-02-15 08:13:20"
         },
         {
             "name": "ulrichsg/getopt-php",
@@ -96,9 +100,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "nepda/youtrack-client": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

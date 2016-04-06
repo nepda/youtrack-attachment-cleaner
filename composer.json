@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "nepda/youtrack-client": "dev-master",
+    "nepda/youtrack-client": "1.*",
     "ulrichsg/getopt-php": "2.*"
   }
 }
